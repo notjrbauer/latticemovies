@@ -1,0 +1,19 @@
+{
+  "presets": [["next/babel"], ["@babel/preset-env", {"useBuiltIns": "entry", "corejs": 2}]],
+  "plugins": [
+    [
+      "styled-components",
+      {
+        "ssr": false
+      }
+    ],
+    "@babel/plugin-transform-react-jsx",
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "regenerator": true
+      }
+    ],
+    "babel-plugin-react-require"
+  ]
+}
