@@ -1,6 +1,5 @@
 import {createMuiTheme} from '@material-ui/core/styles'
 import {ThemeProvider} from '@material-ui/core/styles'
-import CssBaseline from '@material-ui/core/CssBaseline'
 const theme = createMuiTheme({
   palette: {
     primary: {500: '#467fcf'},
@@ -64,7 +63,6 @@ function Index({params, total_pages, movie_list = [], ...props}) {
   }
   return (
     <ThemeProvider theme={theme}>
-      <CssBaseline />
       <SearchBar onChange={setSearchValue} searchValue={searchValue} handleSubmit={handleSubmit} />
       <Box>
         <Box>
