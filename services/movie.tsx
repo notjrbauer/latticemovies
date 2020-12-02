@@ -44,7 +44,8 @@ function fmtDate(d = '') {
   return match && match.length ? match[0] : d
 }
 
-function fmtCast({cast = []}) {
+function fmtCast(credits) {
+  const cast = credits?.cast || []
   return cast.map(parseCast)
 }
 
