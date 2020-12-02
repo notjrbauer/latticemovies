@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import React, { forwardRef } from 'react'
 import { Grid } from '@material-ui/core'
-import { Box } from '@material-ui/core'
 import MaterialTable from 'material-table'
 import AddBox from '@material-ui/icons/AddBox'
 import ArrowDownward from '@material-ui/icons/ArrowDownward'
@@ -19,6 +18,8 @@ import SaveAlt from '@material-ui/icons/SaveAlt'
 import Search from '@material-ui/icons/Search'
 import ViewColumn from '@material-ui/icons/ViewColumn'
 import DragIndicatorIcon from '@material-ui/icons/DragIndicator'
+
+import Box from '~/components/Box'
 
 const tableIcons = {
   Add: forwardRef((props, ref) => <AddBox {...props} ref={ref} />),

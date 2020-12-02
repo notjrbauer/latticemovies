@@ -1,13 +1,13 @@
 import Link from 'next/link'
 import { makeStyles } from '@material-ui/core/styles'
 import Avatar from '@material-ui/core/Avatar'
-import Box from '@material-ui/core/Box'
 import Card from '@material-ui/core/Card'
 import CardActions from '@material-ui/core/CardActions'
 import CardContent from '@material-ui/core/CardContent'
 import StarIcon from '@material-ui/icons/Star'
 import Typography from '@material-ui/core/Typography'
 
+import Box from '~/components/Box'
 import Toggle from '~/components/Toggle'
 
 const useStyles = makeStyles(theme => ({

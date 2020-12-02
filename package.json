@@ -35,6 +35,7 @@
     "react-query": "^2.26.3",
     "sass": "1.29.0",
     "styled-components": "^5.2.1",
+    "styled-system": "^5.1.5",
     "unfetch": "^4.2.0",
     "url-join": "^4.0.1"
   },

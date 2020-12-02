@@ -8,9 +8,9 @@ const theme = createMuiTheme({
 
 import {useRouter} from 'next/router'
 import {useState, useEffect} from 'react'
-import Box from '@material-ui/core/Box'
 import Button from '@material-ui/core/Button'
 
+import Box from '~/components/Box'
 import List from '~/components/List'
 import Table from '~/components/MovieTable'
 import SearchBar from '~/components/Searchbar'
