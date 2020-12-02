@@ -1,5 +1,7 @@
 // next.config.js
 module.exports = {
+  typescript: { ignoreBuildErrors: true },
+
   // Uncomment the line below to enable basePath, pages and
   // redirects will then have a path prefix (`/app` in this case)
   //
