@@ -21,7 +21,8 @@ export async function find(query) {
 export async function details(id) {
   console.log('details::id', id)
   let append = ['credits', 'translations', 'keywords']
-  const body = await request.get(`movie/${id}`, {append_to_response: append})
+  const body = await request.get(`movie/${id}`, {query: {append_to_response: append.join(',')}})
+  console.log(body)
   return body
 }
 

@@ -53,7 +53,7 @@ export default function MovieList ({ data }) {
                   alt={`Avatar n°${value.title + 1}`}
                   src={`${value.poster_path}`}
                 />
-                <Box style={{ display: 'flex', flexDirection: 'column' }}>
+                <Box display='flex' flexDirection='column'>
                   <Link href={`/movie/${value.id}`}>
                     <Typography
                       variant='h5'
